@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ServiceLayers.Helpers
 {
-   public class AppSettings
+    public class AppSettings
     {
         public string Secret { get; set; }
     }
