@@ -49,6 +49,8 @@ namespace WebApiCore21.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            var user = User.Identity.Name;
+
             var users = _userService.GetAll();
             return Ok(users);
         }
